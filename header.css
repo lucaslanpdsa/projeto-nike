@@ -1,0 +1,57 @@
+.cabecalho{
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: .3rem .8rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cabecalho__logo{
+  width: 2.8em;
+}
+
+.cabecalho__botoes{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 1.7rem;
+}
+
+.cabecalho__botao--carrinho{
+  color: black;
+  font-size: 1.7rem;
+}
+
+.cabecalho__botao--menu{
+  color: black;
+  font-size: 2.3rem;
+}
+
+.cabecalho__barra-pesquisa{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  border-radius: 1000px;
+  background-color: rgb(247, 247, 247);
+  padding: .3rem 1rem;
+  padding-left: 1rem;
+  margin-top: .8rem;
+}
+
+.cabecalho__barra-pesquisa--input{
+  background-color: rgb(247, 247, 247);
+  border: 0;
+}
+
+.cabecalho__barra-pesquisa--icon{
+  font-size: 1rem;
+}
+
+.cabecalho__barra-pesquisa--input::placeholder{
+  font-size: 1rem;
+}
